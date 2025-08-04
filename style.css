@@ -1,0 +1,243 @@
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* NAV BAR */
+
+/* Common background wrapper */
+#main-bg {
+    background: url("bg1.jpg") no-repeat center center/cover;
+    position: relative;
+    min-height: 100vh;
+    /* z-index: -2; */
+}
+
+/* Optional semi-transparent overlay for visual depth */
+
+#main-bg::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    /* z-index: -1; */
+}
+
+/* NAV BAR */
+
+
+
+#navbar {
+    display: flex;
+    position: relative;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* semi-transparent layer */
+    z-index: 1;
+}
+
+/* NAV BAR: LOGO IMAGE */
+#logo {
+    margin: 10px 15px;
+    display: flex;
+}
+
+#logo img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+
+/* NAV BAR: LIST STYLING */
+
+
+ul {
+    cursor: pointer;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    display: flex;
+}
+
+.item{
+    cursor: pointer;
+    margin: auto;
+    font-size: 1rem;
+}
+
+ul li a {
+    font-size:20px ;
+    cursor: pointer;
+    color: white;
+    display: block;
+    padding: 3px 35px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    cursor: pointer;
+    color: black;
+    background-color: white;
+}
+
+/* HOME SECTION */
+#home {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 20px;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+#home h1,
+#home p {
+    color: white;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+}
+
+
+/* Services Section  */
+
+#services {
+    display: flex;
+    /* margin: 34px; */
+}
+
+.box {
+    border: 2px solid red;
+    padding: 25px;
+    margin: 25px 25px;
+    border-radius: 25px;
+    background-color: rgb(243, 219, 219);
+}
+
+.box img {
+    /* z-index: -1; */
+    display: block;
+    margin: auto;
+    height: 160px;
+}
+
+/* Client section */
+
+#client-section::before{
+    content: "";
+    position: absolute;
+    background: url("bg.jpg")no-repeat center center/cover;
+    width: 100%;
+    height: 55%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#client-section{
+    
+height: 407px;
+}
+
+#clients{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clients-item{
+    padding: 34px;
+}
+#clients img{
+    height: 144px; 
+
+}
+
+/* Contact Section  */
+
+#contact{
+    position: relative;
+}
+
+#contact::before{
+    content: "";
+    position: absolute; 
+    height: 100%;
+    width: 100%;
+    background: url("message.jpg")no-repeat center center/cover;
+     z-index: -1;
+    opacity: 0.5;
+} 
+.contact-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 34px;
+}
+.contact-box input,
+.contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+
+.contact-box form{
+    width: 40%;
+}
+.contact-box label{
+    font-size: 1.3rem;
+    
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 9px 20px;
+}
+
+/* Utility classs */
+
+.h-primary {
+    font-size: 3.2rem;
+    padding: 12px;
+}
+
+.h-secondary {
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 12px;
+}
+
+.btn {
+    padding: 6px 20px;
+    border: 2px solid black;
+    background-color: brown;
+    border-radius: 10px;
+    color: white;
+    margin: 17px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.center {
+    text-align: center;
+}
+
+/* Rainbow-Text */
+
+/* .h-primary {
+  background: linear-gradient(45deg, red, orange, yellow,violet , green, indigo, blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+} */
+
+/* .h-primaryy{
+    font-size: 3.2rem;
+    padding: 12px;
+    color: black;
+} */
+
