@@ -241,3 +241,53 @@ footer{
     color: black;
 } */
 
+.contact-box form button.btn {
+    display: block;
+    margin: 20px auto 0 auto;
+}
+
+
+#hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    cursor: pointer;
+    margin: auto 15px;
+    z-index: 2;
+}
+ 
+#hamburger span {
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 3px;
+}
+ 
+@media (max-width: 768px) {
+    #hamburger {
+        display: flex;
+    }
+ 
+    #nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+ 
+    #nav-links.active {
+        display: flex;
+    }
+ 
+    #nav-links li a {
+        padding: 15px;
+        text-align: center;
+    }
+}
+ 

@@ -1,13 +1,6 @@
 @media (max-width:926px) {
 
     /* Navigation */
-    #navbar {
-        flex-direction: column;
-
-        ul li a {
-            padding: 3px 10px;
-        }
-    }
 
     #logo {
         justify-content: center;
@@ -18,7 +11,7 @@
         height: 300px;
     }
 
-    #homw::before {
+    #home::before {
         height: 500px;
     }
 
