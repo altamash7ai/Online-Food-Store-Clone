@@ -23,19 +23,19 @@ It focuses on building a clean and attractive food website interface with sectio
 
 ## 🚀 Features
 
-* Clean **food store website UI**
-* Built only with **HTML and CSS**
-* Beginner-friendly project structure
+* Clean, responsive food store website UI
+* Contact form validation — checks required fields and valid email format, shows success/error messages, no page reload needed
+* Mobile hamburger navigation menu — collapses nav links on small screens, toggled with JavaScript
 * Responsive layout design
 * Practice project for frontend development
-* Attractive landing page style design
-
+* Built with vanilla JavaScript (no frameworks/libraries)
 ---
 
 ## 🛠️ Tech Stack
 
 * **HTML5**
 * **CSS3**
+* JavaScript (DOM manipulation, event handling, form validation)
 
 ---
 
@@ -45,6 +45,7 @@ It focuses on building a clean and attractive food website interface with sectio
 Online-Food-Store-Clone/
 │── index.html
 │── style.css
+│── script.js
 │── images/   # if used
 │── README.md
 ```
@@ -75,6 +76,7 @@ This project was made for **practice** to improve skills in:
 
 * HTML page structure
 * CSS styling
+* JavaScript DOM manipulation and event handling
 * Layout design
 * Building UI clones
 * Creating responsive web pages
@@ -85,10 +87,10 @@ This project was made for **practice** to improve skills in:
 
 Possible future upgrades for this project:
 
-* Add JavaScript for interactivity
-* Add a shopping cart section
+* Convert the Services section into an actual food menu with items, prices, and images
+* Add a shopping cart (add/remove items, running total)
 * Add hover animations and transitions
-* Improve mobile responsiveness
+* Connect the contact form to a real backend/email service
 * Convert it into a fully functional food ordering website
 
 ---
